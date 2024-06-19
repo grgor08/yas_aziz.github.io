@@ -33,15 +33,35 @@ main {
 }
 
 section {
-    margin: 20px 0;
+    margin: 40px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 20px;
 }
 
 footer {
     background-color: #333;
-    padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    padding: 20px 0;
 }
 
 footer p {
