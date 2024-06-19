@@ -41,6 +41,19 @@ section h2 {
     margin-bottom: 20px;
 }
 
+.photo-container {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+}
+
 .content {
     text-align: left;
     max-width: 800px;
@@ -66,4 +79,8 @@ footer {
 
 footer p {
     margin: 5px 0;
+}
+
+footer .linkedin {
+    color: #0e76a8; /* LinkedIn blue */
 }
