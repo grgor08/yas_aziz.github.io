@@ -1,103 +1,118 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yasir Ibrahim</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#vita">Vita</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <div class="container">
-                <div class="photo-container">
-                    <img src="images/your-photo.jpg" alt="Yasir Ibrahim">
-                </div>
-                <div class="info-container">
-                    <h1>Yasir Ibrahim</h1>
-                    <p>Doctoral Student in Interdisciplinary Engineering</p>
-                    <p>Texas A&M University</p>
-                    <p>When I was deciding on my college major, I wasn't sure if engineering was the right choice. But everything changed after I attended my first energy conference. It was there that I realized how much I liked solving problems, especially when it came to energy. Since then, I have been unstoppable. I earned my Bachelor's in Mechanical Engineering from the University of Khartoum and then went on to complete my Master's in Chemical Engineering at Texas A&M University.</p>
-                </div>
-            </div>
-            <div class="arrow"><a href="#research">▼</a></div>
-        </section>
-        <section id="research">
-            <h2>Research Interests</h2>
-            <div class="content">
-                <p>My research interests focus on the development of sustainable energy systems, optimization of hydrogen supply chains, and enhancing resilience in national infrastructure. I am particularly interested in the techno-economic analysis and environmental impact of renewable energy technologies, as well as their integration into existing industrial clusters.</p>
-            </div>
-            <div class="arrow"><a href="#vita">▼</a></div>
-        </section>
-        <section id="vita">
-            <h2>Curriculum Vitae</h2>
-            <div class="content">
-                <h3>Education</h3>
-                <ul>
-                    <li>Doctor of Philosophy in Interdisciplinary Engineering, Texas A&M University, Expected graduation May 2026</li>
-                    <li>MSc in Chemical Engineering, Texas A&M University Qatar</li>
-                    <li>BSc in Mechanical Engineering, University of Khartoum</li>
-                </ul>
-                <h3>Work Experience</h3>
-                <ul>
-                    <li>Graduate Research Assistant (PhD), Texas A&M University, August 2023-Present</li>
-                    <li>Industrial Researcher, Gulf Organization for Industrial Consultation, March 2022-August 2023</li>
-                    <li>Visiting Scholar/Graduate Research Assistant, Texas A&M University in Qatar, August 2019-February 2022</li>
-                    <li>Research Assistant, Hamad Bin Khalifa University, April 2019-July 2019</li>
-                    <li>Research Assistant, Texas A&M University in Qatar, April 2018-December 2018</li>
-                    <li>Mechanical Engineer, Qatar Building Company, April 2017-November 2017</li>
-                </ul>
-            </div>
-            <div class="arrow"><a href="#publications">▼</a></div>
-        </section>
-        <section id="publications">
-            <h2>Publications</h2>
-            <div class="content">
-                <ul>
-                    <li>
-                        <strong>A Systematic Analysis of Economic and Environmental Trade-Offs in Hydrogen Supply Chains with Resilience Considerations</strong><br>
-                        Yasir Ibrahim, Elizabeth J. Abrahama, Dhabia M. Al-Mohannadia<br>
-                        Proceedings of the 34th European Symposium on Computer Aided Process Engineering / 15th International Symposium on Process Systems Engineering (ESCAPE34/PSE24)<br>
-                        TBD, Accepted, 2024
-                    </li>
-                    <li>
-                        <strong>Optimization of Low-Carbon Hydrogen Supply Chain Networks in Industrial Clusters</strong><br>
-                        Yasir Ibrahim, Dhabia M. Al-Mohannadi<br>
-                        International Journal of Hydrogen<br>
-                        48, 13325-13342, Published, 2023
-                    </li>
-                    <li>
-                        <strong>Modeling and Optimization of Hydrogen Production in an Industrial Cluster Accounting for Economic Cost and Environmental Impact</strong><br>
-                        Yasir Ibrahim, Dhabia M. Al-Mohannadi *, Patrick Linke<br>
-                        Chemical Engineering Transactions<br>
-                        88, 439-444, Published, December 2021
-                    </li>
-                    <li>
-                        <strong>Low-Carbon Hydrogen Production in Industrial Clusters</strong><br>
-                        Yasir Ibrahim, Mohammad Lameh, Patrick Linke, Dhabia M. Al-Mohannadi<br>
-                        Computer Aided Chemical Engineering<br>
-                        49, 1885-1890, Published, 2022
-                    </li>
-                </ul>
-                <p>See more on my <a href="https://scholar.google.com/citations?user=1X2D49kAAAAJ&hl=en" target="_blank">Google Scholar</a> profile.</p>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>Contact: <a href="mailto:y.omeribrahim@hotmail.com" class="email">y.omeribrahim@hotmail.com</a></p>
-        <p>Phone: +17138874049</p>
-        <p><a href="https://www.linkedin.com/in/yasir-abdelaziz/" class="linkedin">LinkedIn</a></p>
-    </footer>
-</body>
-</html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-container {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 10px;
+    border: 5px solid #fff; /* Optional: Add border to make the photo stand out */
+}
+
+.info-container {
+    flex: 2;
+    max-width: 600px;
+    margin: 10px;
+    text-align: center;
+}
+
+.info-container h1 {
+    margin-top: 0;
+}
+
+section {
+    margin: 40px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.arrow {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.arrow a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .linkedin,
+footer .email {
+    color: #0e76a8; /* LinkedIn blue */
+}
