@@ -49,6 +49,7 @@ main {
     width: 100%;
     height: auto;
     border-radius: 50%;
+    border: 5px solid #fff; /* Optional: Add border to make the photo stand out */
 }
 
 .info-container {
@@ -93,4 +94,13 @@ li {
 footer {
     background-color: #333;
     padding: 20px 0;
-    text-align
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .linkedin {
+    color: #0e76a8; /* LinkedIn blue */
+}
