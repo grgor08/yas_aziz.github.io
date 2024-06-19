@@ -43,11 +43,13 @@ main {
     flex: 1;
     max-width: 300px;
     margin: 10px;
+    text-align: center;
 }
 
 .photo-container img {
     width: 100%;
     height: auto;
+    max-width: 150px;
     border-radius: 50%;
     border: 5px solid #fff; /* Optional: Add border to make the photo stand out */
 }
@@ -74,7 +76,7 @@ section h2 {
 }
 
 .content {
-    text-align: left;
+    text-align: center;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -101,6 +103,7 @@ footer p {
     margin: 5px 0;
 }
 
-footer .linkedin {
+footer .linkedin,
+footer .email {
     color: #0e76a8; /* LinkedIn blue */
 }
