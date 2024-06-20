@@ -84,7 +84,7 @@ section h2 {
 }
 
 ul {
-    list-style: none;
+    list-style: disc;
     padding-left: 20px; /* Indent list items */
     text-align: left; /* Align list items to the left */
 }
